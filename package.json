@@ -105,6 +105,7 @@
     "pdfobject": "^2.0.201604172",
     "pg": "^7.12.1",
     "pg-hstore": "^2.3.3",
+    "picgo": "^1.4.8",
     "prismjs": "^1.6.0",
     "randomcolor": "^0.5.3",
     "raphael": "git+https://github.com/dmitrybaranovskiy/raphael",
