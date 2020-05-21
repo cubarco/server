@@ -614,7 +614,7 @@ function generateCleanHTML (view) {
     let name = $(value).attr('alt')
     name = name.substr(1)
     name = name.slice(0, name.length - 1)
-    $(value).attr('src', `https://cdn.jsdelivr.net/gh/cdnjs/cdnjs@master/ajax/libs/emojify.js/1.1.0/images/basic/${name}.png`)
+    $(value).attr('src', `https://cdn.jsdelivr.net/gh/cdnjs/cdnjs@95f0cba887c60c1b8c7944d59442a02623193751/ajax/libs/emojify.js/1.1.0/images/basic/${name}.png`)
   })
   // replace video to iframe
   src.find('div[data-videoid]').each((key, value) => {
